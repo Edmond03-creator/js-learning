@@ -12,6 +12,7 @@ const cars = [
     { model: "Audi", speed: 130 },
     { model: "Mercedes-Benz", speed: 260 }
 ];
+export const CAR_MAX_SPEED = 120
 
 const safeCars = [];
 const speedingCars = [];
@@ -19,7 +20,7 @@ const speedingCars = [];
 for (let i = 0; i < cars.length; i++) { 
     let speed = cars[i].speed; 
 
-    if (speed > 120) {
+    if (speed > CAR_MAX_SPEED) {
         speedingCars.push(cars[i]); 
     } else {
         safeCars.push(cars[i]); 
