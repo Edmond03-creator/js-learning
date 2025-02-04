@@ -4,4 +4,3 @@ export const STUDENTS = [
     { name: "Olivia", grade: 76 },
     { name: "Emma", grade: 59 },
   ];
-
